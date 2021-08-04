@@ -3,7 +3,8 @@ import "@fontsource/inter";
 import 'antd/dist/antd.css';
 import "../index.scss";
 import Navbar from "../components/navbar/Navbar";
-import AboutMe from "../components/about/AboutMe";
+import Intro from "../components/intro/Intro";
+
 
 const IndexPage = () => {
   return (
@@ -13,7 +14,7 @@ const IndexPage = () => {
       <div id="stars2"></div>
       <div id="stars3"></div>
       <Navbar />
-      <AboutMe />
+      <Intro />
     </main>
   )
 }
