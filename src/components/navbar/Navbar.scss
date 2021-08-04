@@ -1,0 +1,51 @@
+.navbar {
+    z-index: 3;
+    
+    .menu {
+        background: transparent;
+        line-height: 38px;
+        border-bottom: none;
+        justify-content: flex-end;
+    }
+
+    .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+        border-bottom: 0.3px solid #F07B3F;
+        border: none;
+    }
+
+    .special-text {
+        color: #F07B3F;
+        font-weight: 800;
+        border: 2px solid #F07B3F;
+        padding: 3px;
+        font-size: 17px;
+    }
+    
+    .menu-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+    
+    .ant-menu-item-selected {
+        .menu-title {
+            color: #F07B3F;
+        }
+    }
+    .menu-title:hover {
+        color: #F07B3F;
+        transition: color 0.2s cubic-bezier(.42,0,.58,1);
+    }
+    
+    .ant-menu-horizontal > .ant-menu-item::after, .ant-menu-horizontal > .ant-menu-submenu::after {
+        transition: none;
+    }
+    
+    .hamburger-menu {
+        filter: invert(56%) sepia(89%) saturate(1543%) hue-rotate(335deg) brightness(100%) contrast(89%);
+    }
+}
+
+
