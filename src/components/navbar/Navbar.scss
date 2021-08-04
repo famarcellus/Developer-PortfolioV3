@@ -34,11 +34,14 @@
             color: #F07B3F;
         }
     }
-    .menu-title:hover {
-        color: #F07B3F;
-        transition: color 0.2s cubic-bezier(.42,0,.58,1);
+
+    .title-holder:hover {
+        .menu-title {
+            color: #F07B3F;
+            transition: color 0.2s cubic-bezier(.42,0,.58,1);
+        }
     }
-    
+
     .ant-menu-horizontal > .ant-menu-item::after, .ant-menu-horizontal > .ant-menu-submenu::after {
         transition: none;
     }

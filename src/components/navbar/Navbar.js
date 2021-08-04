@@ -8,13 +8,13 @@ function Navbar() {
         <header className="navbar">
             <Menu mode="horizontal" className="menu" overflowedIndicator={<HamburgerIcon />} triggerSubMenuAction="click">
                 <Menu.Item key="about">
-                    <a href="#about"><h1 className="menu-title">About <span className="special-text">Me</span></h1></a>
+                    <a href="#about" className="title-holder"><h1 className="menu-title">About <span className="special-text">Me</span></h1></a>
                 </Menu.Item>
                 <Menu.Item key="projects">
-                    <h1 className="menu-title">Projects <span className="special-text">Made</span> </h1>
+                    <a href="#projects" className="title-holder"><h1 className="menu-title">Projects <span className="special-text">Made</span></h1></a>
                 </Menu.Item>
                 <Menu.Item key="contact">
-                    <h1 className="menu-title">Contact <span className="special-text">Me</span></h1>
+                    <a href="#contact" className="title-holder"><h1 className="menu-title">Contact <span className="special-text">Me</span></h1></a>
                 </Menu.Item>
             </Menu>
         </header>

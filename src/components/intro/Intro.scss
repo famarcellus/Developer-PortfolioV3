@@ -41,8 +41,19 @@
     }
 
     .intro-button:hover {
-        // color: #fa530088;
         background-color: #fa530011;
     }
     
+}
+
+@media only screen and (min-width: 859px) {
+
+    .intro-section {
+        width: 839px;
+    }
+
+    .intro-section.section {
+        padding: 0 0 0 10%;
+    }
+
 }
