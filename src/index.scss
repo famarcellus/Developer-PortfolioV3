@@ -1,4 +1,4 @@
-$bg-color: #2D4059;
+$bg-color: #1B2735;
 $accent-color: #F07B3F;
 
 body {
@@ -69,9 +69,8 @@ $shadows-medium: multiple-box-shadow(200);
 $shadows-big:    multiple-box-shadow(100);
 
 html {
-  height: 100%;
-  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
-  overflow: hidden;
+    height: 100%;
+    background: #1B2735;
 }
 
 #stars {

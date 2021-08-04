@@ -12,7 +12,7 @@ function Intro() {
                 Computer Science who primarily uses <span className="colored-text">React</span> to create web applications. Currently
                 looking for my first role as a Front End Dev. 
             </h2>
-            <Button className="intro-button" size="large" danger><a href="#about-section">Learn More</a></Button>
+            <Button className="intro-button" size="large" danger><a href="#about">Learn More</a></Button>
         </section>
     )
 }
