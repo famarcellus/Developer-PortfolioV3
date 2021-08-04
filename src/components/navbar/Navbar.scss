@@ -14,9 +14,9 @@
     }
 
     .special-text {
-        color: #F07B3F;
+        color: #fa5500;
         font-weight: 800;
-        border: 2px solid #F07B3F;
+        border: 2px solid #fa5500;
         padding: 3px;
         font-size: 17px;
     }
@@ -31,13 +31,13 @@
     
     .ant-menu-item-selected {
         .menu-title {
-            color: #F07B3F;
+            color: #fa5500;
         }
     }
 
     .title-holder:hover {
         .menu-title {
-            color: #F07B3F;
+            color: #fa5500;
             transition: color 0.2s cubic-bezier(.42,0,.58,1);
         }
     }
