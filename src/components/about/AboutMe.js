@@ -3,7 +3,7 @@ import "./AboutMe.scss";
 
 function AboutMe() {
     return (
-        <section id="about" className="about-section section">
+        <section id="about" className="about-section section" data-sal="slide-up" data-sal-duration="1000">
             <div className="title-container">
                 <h2 className="section-title">About Me</h2>
             </div>

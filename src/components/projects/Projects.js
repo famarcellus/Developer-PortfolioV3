@@ -5,13 +5,10 @@ import ProjectData from "../../data/ProjectData";
 
 function Projects() {
     return (
-        <section id="projects" className="projects-section section">
+        <section id="projects" className="projects-section section" data-sal="slide-up" data-sal-duration="1000">
             <div className="title-container">
                 <h2 className="section-title">Things I've Built</h2>
             </div>
-            {/* <div className="details">
-                <p>Heloooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
-            </div> */}
             {ProjectData.map((project, idx) => {
                 console.log(project.techStack);
                 return (

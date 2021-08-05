@@ -4,7 +4,7 @@ import { Button } from "antd";
 
 function Intro() {
     return (
-        <section className="intro-section section">
+        <section className="intro-section section" data-sal="slide-up" data-sal-duration="1500">
             <h2 className="small-text">Hey there, I'm</h2>
             <h1 className="name big-text">Fabio Marcellus.</h1>
             <h1 className="job-title big-text">I love being a <span>Front End Developer.</span></h1>
