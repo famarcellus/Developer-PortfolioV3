@@ -6,11 +6,13 @@ import Navbar from "../components/navbar/Navbar";
 import Intro from "../components/intro/Intro";
 import AboutMe from "../components/about/AboutMe";
 import Projects from "../components/projects/Projects";
+import { BackTop } from "antd";
 
 const IndexPage = () => {
   return (
     <main>
       <title>Fabio's Portfolio</title>
+      <BackTop />
       <div id="stars"></div>
       <div id="stars2"></div>
       <div id="stars3"></div>
