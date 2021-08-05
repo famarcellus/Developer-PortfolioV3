@@ -4,7 +4,6 @@ import GithubIcon from "../../assets/projects/github.svg";
 import ShareIcon from "../../assets/projects/share.svg";
 
 function ProjectInfo({ title, description, techStack, imageSrc, liveLink, sourceLink }) {
-    console.log(techStack);
     return (
         <div className="project-container">
             <div className="project">
@@ -21,8 +20,8 @@ function ProjectInfo({ title, description, techStack, imageSrc, liveLink, source
                                 )
                             })}
                         </ul>
-                        <a className="link-icon" href={liveLink}><img className="icon" width="40px" height="40px" src={ShareIcon}></img></a>
-                        <a className="github-icon" href={sourceLink}><img className="icon" width="40px" height="40px" src={GithubIcon}></img></a>
+                        <a className="link-icon" href={liveLink}><img className="icon" width="40px" height="40px" src={ShareIcon} alt="Share Icon"></img></a>
+                        <a className="github-icon" href={sourceLink}><img className="icon" width="40px" height="40px" src={GithubIcon} alt="Github Icon"></img></a>
                     </div>
                 </div>
                 <div className="project-img">
