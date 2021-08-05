@@ -4,6 +4,7 @@ $accent-color: #F07B3F;
 body {
     font-family: "Inter";
     background-color: $bg-color;
+    overflow-x: hidden;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -45,6 +46,26 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 
+
+.section-title {
+    // display: inline;
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    font-weight: 800;
+    padding: 6px;
+    // span {
+    //     color: #fa5500;
+    // }
+}
+
+// .section-title:after {
+//     content: "";
+//     flex: 1 1;
+//     border-bottom: 1px solid #F07B3F;
+//     margin: auto;
+//     margin-left: 40px;
+// }
 
 
 // n is number of stars required

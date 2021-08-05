@@ -5,6 +5,7 @@ import "../index.scss";
 import Navbar from "../components/navbar/Navbar";
 import Intro from "../components/intro/Intro";
 import AboutMe from "../components/about/AboutMe";
+import Projects from "../components/projects/Projects";
 
 const IndexPage = () => {
   return (
@@ -16,6 +17,7 @@ const IndexPage = () => {
       <Navbar />
       <Intro />
       <AboutMe />
+      <Projects />
     </main>
   )
 }
