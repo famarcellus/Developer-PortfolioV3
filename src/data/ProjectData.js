@@ -18,18 +18,6 @@ const Details = [
         "liveLink": "https://tuneshare.netlify.app/",
         "sourceLink": "https://github.com/famarcellus/share-your-tunes"
     },
-    {
-        "title": "Portfolio Website",
-        "description": "Designed by myself using Gatsby to display skills possessed, projects completed, and info about myself.",
-        "techStack": [
-            "Gatsby",
-            "React",
-            "SCSS"
-        ],
-        "imageSrc": portfolioImg,
-        "liveLink": process.env.GATSBY_PUBLIC_URL,
-        "sourceLink": "https://github.com/famarcellus/Developer-PortfolioV3"
-    }
 ]
 
 export default Details;
