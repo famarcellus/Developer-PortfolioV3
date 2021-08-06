@@ -6,6 +6,7 @@ import Navbar from "../components/navbar/Navbar";
 import Intro from "../components/intro/Intro";
 import AboutMe from "../components/about/AboutMe";
 import Projects from "../components/projects/Projects";
+import ContactMe from "../components/contact/ContactMe";
 import { BackTop } from "antd";
 
 const IndexPage = () => {
@@ -20,6 +21,7 @@ const IndexPage = () => {
       <Intro />
       <AboutMe />
       <Projects />
+      <ContactMe />
     </main>
   )
 }

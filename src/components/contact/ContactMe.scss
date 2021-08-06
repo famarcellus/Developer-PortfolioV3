@@ -1,0 +1,21 @@
+.contact-section {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .section-title {
+        color: #fa5500;
+    }
+
+    .ant-btn:hover, .ant-btn:focus {
+        color: #fa5500;
+        border-color: #fa5500;
+    }
+
+    .details {
+        color: white;
+        margin-bottom: 35px;
+        font-size: 18px;
+    }
+}
